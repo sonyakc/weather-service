@@ -2,10 +2,12 @@ weather-service
 ===============
 To run the weather service forecast retriever please 
 
-1) Run WeatherServiceClient.java passing in two String arguments
+1) Run com.weather.client.WeatherServiceClient.java passing in two String arguments
 a) Sample program arguments are as follows "10018" "json"
 1st argument is the zip code 
 2nd argument is the format, media type representation to retrieve
+
+Program throws custom exception type if size of args array is not valid. 
 
 Output: will be forecast details to system.out 
 
